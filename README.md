@@ -1,9 +1,7 @@
-# Exp-03 Implementation of Half Adder and Full Adder circuit..
 
-### Project By: MASINA SREE KARSH
-###   Register No:23005860
-
-
+### NAME: LOKHNATH J
+###   Register No:23004865
+# Experiment-03 Implementation of Half Adder and Full Adder circuit
 ### AIM:
 To design a half adder and full adder circuit and verify its truth table in Quartus using Verilog programming.
 
@@ -71,7 +69,7 @@ Program to design a half adder and full adder circuit and verify its truth table
    
    ![image](https://github.com/Shilo-05/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139841664/bd185f3b-fe74-4da2-94d7-7e06a89c399c)
 
-### Output Waveform $ Timing Diagram:-
+### Output Waveform :
    Half Adder Circuit:-
    
    ![image](https://github.com/Shilo-05/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139841664/4f7ba4b5-4cb6-47fc-872d-b94402b9dcaa)
