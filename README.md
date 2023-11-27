@@ -21,26 +21,10 @@ Full adder is a digital circuit used to calculate the sum of three binary bits. 
 
 Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = AB + ACin + BCin
 
-#### HALF ADDER 
-```
-module exp3(a,b,sum,carry);
-input a,b;
-output sum,carry;
-xor(sum,a,b);
-and(carry,a,b);
-endmodule
-```
-
+####  HALF ADDER 
+![image](https://github.com/Lokhnath10/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/138969918/06eeef19-8835-4b15-bc5b-88dbaeaae48d)
 #### FULL ADDER
-```
-module exp3(a,b,c,sum,carry);
-input a,b,c;
-output sum,carry;
-nor(sum,a,b,c);
-assign carry=a&b | b&c | a&c;
-endmodule
-```
-
+![image](https://github.com/Lokhnath10/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/138969918/5025cdec-3bd7-4125-868b-a49d235fae68)
 ## Procedure:
 
 Connect the supply (+5V) to the circuit
@@ -50,14 +34,27 @@ If the output is 1, then the led glows.
 ### Program:
 /*
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-# Half Adder Circuit:-
-
-![image](https://github.com/Shilo-05/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139841664/22925cc5-3594-4624-a94e-a1d0a9e550e8)
+# Half Adder :-
+```
+module exp3(a,b,sum,carry);
+input a,b;
+output sum,carry;
+xor(sum,a,b);
+and(carry,a,b);
+endmodule
+```
 
 
 # Full Adder Circuit:-
 
-![image](https://github.com/Shilo-05/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/139841664/26cc1c46-2eea-4984-860c-1112a233aa11)
+```
+module exp3(a,b,c,sum,carry);
+input a,b,c;
+output sum,carry;
+nor(sum,a,b,c);
+assign carry=a&b | b&c | a&c;
+endmodule
+```
 
 
 */
